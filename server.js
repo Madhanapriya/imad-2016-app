@@ -16,15 +16,15 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
-app.get('/article One',function(req,res){
+app.get('/article one',function(req,res){
   res.send('Article one request will be served here');  
     
 });
-app.get('/article Two',function(req,res){
+app.get('/article two',function(req,res){
   res.send('Article two request will be served here');  
     
 });
-app.get('/article Three',function(req,res){
+app.get('/article three',function(req,res){
   res.send('Article three request will be served here');  
     
 });
